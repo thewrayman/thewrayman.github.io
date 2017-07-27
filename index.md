@@ -8,10 +8,10 @@ NoseBot is a Discord bot which currently provides the ability to send notificati
 
 ### Commands
 
-- **!!start** - Tells the bot to start monitoring channels going live. (posts notifcations to the channel the command was posted)
-- **!!add** _\<Twitch Name or link>_ - Adds the streamer to the list of channels to check
-- **!!remove** _\<Twitch Name or link>_ - Removes the streamer from the list of channels to check. (can also use **!!delete**)
-- **!!list** - Displays the current list of channels being monitored
+- ``` **!!start** ``` - Tells the bot to start monitoring channels going live. (posts notifcations to the channel the command was posted)
+- ``` **!!add** _\<Twitch Name or link>_ ``` - Adds the streamer to the list of channels to check
+- ``` **!!remove** _\<Twitch Name or link>_ ``` - Removes the streamer from the list of channels to check. (can also use **!!delete**)
+- ``` markdown **!!list** ``` - Displays the current list of channels being monitored
 
 
 ### About
