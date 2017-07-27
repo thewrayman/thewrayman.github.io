@@ -1,37 +1,23 @@
-## Welcome to GitHub Pages
+## Welcome to the NoseBot homepage
 
-You can use the [editor on GitHub](https://github.com/thewrayman/thewrayman.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### What is NoseBot?
 
-### Markdown
+NoseBot is a Discord bot which currently provides the ability to send notifications to a Discord channel when a stream goes live.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+### Commands
 
-# Header 1
-## Header 2
-### Header 3
+**!!start** - Tells the bot to start monitoring channels going live. (posts notifcations to the channel the command was posted)
+**!!add** _\<Twitch Name or link>_ - Adds the streamer to the list of channels to check
+**!!remove** _\<Twitch Name or link>_ - Removes the streamer from the list of channels to check. (can also use **!!delete**)
+**!!list** - Displays the current list of channels being monitored
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+### About
+NoseBot is written in C#, utilising Discord.Net to access Discord API.
+The key features at the moment:
+1. Add stream channels to follow
+2. Notify a server when one of the channels go live
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/thewrayman/thewrayman.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
