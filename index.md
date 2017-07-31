@@ -5,7 +5,7 @@
 
 NoseBot is a Discord bot which currently provides the ability to send notifications to a Discord channel when a stream goes live.
 
-Invite the nose here https://discordapp.com/oauth2/authorize?client_id=339505551115419648&scope=bot&permissions=515136
+Invite the nose [here] https://discordapp.com/oauth2/authorize?client_id=339505551115419648&scope=bot&permissions=268958784
 
 
 ## Commands
