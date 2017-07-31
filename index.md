@@ -22,7 +22,7 @@ Invite the nose here https://discordapp.com/oauth2/authorize?client_id=339505551
 - **```!!prefix <new prefix> ```** - Changes the default or existing prefix to the new one entered
 - **```!!commands ```** - Displays the current list of commands
 - **```!!addresponse <trigger> <response> ```** - The bot will watch out for the trigger word and reply with a response when seen
-- **```!!delresponse <trigger> ```** - Deletes the response for that trigger
+- **```!!deleteresponse <trigger> ```** - Deletes the response for that trigger
 - **```!!responses ```** - Lists the current stored responses for this server
 
 
