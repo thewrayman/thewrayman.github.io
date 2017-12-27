@@ -3,7 +3,7 @@
 
 ## What is NoseBot?
 
-NoseBot is a Discord bot which currently provides the ability to send notifications to a Discord channel when a stream goes live.
+NoseBot is a Discord bot to help help servers engage in a more interactive environment and allow servers to track Twitch streams
 
 Invite the nose [here](https://discordapp.com/oauth2/authorize?client_id=339505551115419648&scope=bot&permissions=268958784)
 
@@ -25,6 +25,12 @@ Invite the nose [here](https://discordapp.com/oauth2/authorize?client_id=3395055
 - **```!!deleteresponse <trigger> ```** - Deletes the response for that trigger
 - **```!!responses ```** - Lists the current stored responses for this server
 
+### Analytics Commands ###
+- **```!!stats user <user tag> ```** - Displays that user's top 5 words in the last month
+- **```!!stats all ```** - Displays the top word each user found in that server's chat log
+
+This section will be expanded to include some ML and AI technology based on chat logs
+
 
 ### About
 NoseBot is written in C#, utilising Discord.Net to access Discord API.
@@ -33,4 +39,6 @@ The key features at the moment:
 2. Notify a server when one of the channels go live
 3. Create a notification role and add it to users who want it for live streams
 4. Custom responses to trigger words
+5. Chat logging to enable chat analytics
+6. Get information on the most used words in the server
 
