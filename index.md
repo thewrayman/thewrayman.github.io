@@ -5,7 +5,10 @@
 
 NoseBot is a Discord bot to help help servers engage in a more interactive environment and allow servers to track Twitch streams
 
+[![Build status](https://ci.appveyor.com/api/projects/status/1j75hrccq5gtex4m?svg=true)](https://ci.appveyor.com/project/thewrayman/nosebot)
+
 Invite the nose [here](https://discordapp.com/oauth2/authorize?client_id=339505551115419648&scope=bot&permissions=268958784)
+
 
 
 ## Commands
